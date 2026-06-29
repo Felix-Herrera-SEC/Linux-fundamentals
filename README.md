@@ -2,7 +2,7 @@
 
 ## Objective
 
-- Become comfortable working entirely from the Linux terminal
+- Become capable of working entirely from the Linux terminal
 - Learn essential Linux administration tasks
 - Build foundational skills required for cybersecurity and SOC operations
 - Document all completed labs with screenshots and notes
