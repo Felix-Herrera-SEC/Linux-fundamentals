@@ -1,12 +1,26 @@
-# Lab name
+# Linux Installation & Terminal Basics
 
-## Objective
+## Objectives
 
+-Install Ubuntu
 
+-Open Terminal
+
+-Learn terminal layout
+
+-Understand prompt
+
+-Run first commands
 
 ## Enviroment
 
+-Ubuntu VM
+
 ## tools used
+
+-Virtual Box
+
+-Ubuntu
 
 ## steps performed
 
