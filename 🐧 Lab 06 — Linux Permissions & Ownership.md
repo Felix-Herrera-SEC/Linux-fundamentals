@@ -54,7 +54,10 @@ mkdir
 
 ## Steps performed
 
-1- 
+1- Used the ls -l command to view to detailed file meta data was able to see the file type (in this case regular) indicated by the - at the start of the string, what the owner of the file was able to do,(in this case read,write but no excetute) represented by rw-, what the members of the group assigned to that file can do (in this case rw-) read, write but no excecute and what everyone else is able to do with the file, in this case only read represented by r--
+
+<img width="542" height="36" alt="image" src="https://github.com/user-attachments/assets/6a0a984a-0e07-46f0-aa1e-a6b68f5b3703" />
+
 
 2- 
 
