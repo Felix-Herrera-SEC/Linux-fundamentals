@@ -2,7 +2,7 @@
 
 ## Objectives
 
-- Read Linux file and directory permissions.
+-Read Linux file and directory permissions.
 
 -Understand read (r), write (w), and execute (x) permissions.
 
