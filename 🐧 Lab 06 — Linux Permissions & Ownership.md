@@ -52,7 +52,7 @@ touch
 
 mkdir
 
-## Steps performed
+## Steps performed and evidence (screenshots)
 
 1- Used the ls -l command to view to detailed file meta data was able to see the file type (in this case regular) indicated by the - at the start of the string, what the owner of the file was able to do,(in this case read,write but no excetute) represented by rw-, what the members of the group assigned to that file can do (in this case rw-) read, write but no excecute and what everyone else is able to do with the file, in this case only read represented by r--
 
@@ -109,31 +109,34 @@ practied this using the chmod 755 command on script.sh, which made it so the use
 
 <img width="532" height="136" alt="image" src="https://github.com/user-attachments/assets/3cc13b3a-5d9d-407c-a221-7db61c1702bc" />
 
-9- 
+9- practice using the chgrp command to change the group of the report.txt file from vboxuser to adm group.
 
+<img width="520" height="185" alt="image" src="https://github.com/user-attachments/assets/84d596df-3b68-45aa-af37-ca29f1c23fea" />
 
-## evidence (screenshots)
-
-1- 
-
-2- 
-
-3- 
-
-4-
-
-5- 
-
-6- 
-
-7- 
-
-8- 
+10 - did the same with chown
 
 
 ## lessons learned
 
+Learned how to read a linux file and directory permissions, what the rwx mean when reasin the persmissions using the ls -l command as well as their numerical equivalents, 4 for read, 2 for write, 1 for execute and 0 for none.
 
+Also learned how to change said permissions using the chmod command for user and groups.
 
+Leanred the chown command to change the owner of a file and the chgrp command to change the group a file is assigned too.
+
+Understood how to investigate a files permissions and who and what can they do with the file.
 
 ## SOC relevance 
+
+
+Allowed me to answer the following questions:
+
+- Who owns a suspicious file?
+- Which group owns it?
+- Who can read it?
+- Who can modify it?
+- Who can execute it?
+- Are the permissions appropriate?
+- Did an attacker modify permissions?
+- Is a sensitive file accessible to unauthorized users?
+- Was a malicious script made executable?
