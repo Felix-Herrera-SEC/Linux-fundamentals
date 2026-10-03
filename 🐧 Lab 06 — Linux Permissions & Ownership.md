@@ -105,7 +105,11 @@ practied this using the chmod 755 command on script.sh, which made it so the use
 
 <img width="517" height="130" alt="image" src="https://github.com/user-attachments/assets/8bdee59d-f1e2-4d7a-a770-04948140be8a" />
 
-8- To practice restrcited permissions I using the touch command created a new file called confidential.txt and using the echo command added a string of text that says "Confidential investigation notes"
+8- To practice restrcited permissions I using the touch command created a new file called confidential.txt and using the echo command added a string of text that says "Confidential investigation notes", then using chmod 600 made it so only the owner can read and write on it but groups and others cant read write or execute it.
+
+<img width="532" height="136" alt="image" src="https://github.com/user-attachments/assets/3cc13b3a-5d9d-407c-a221-7db61c1702bc" />
+
+9- 
 
 
 ## evidence (screenshots)
