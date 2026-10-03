@@ -24,11 +24,33 @@
 
 ## Enviroment
 
--
+Host OS	Windows
+
+Virtualization	VirtualBox
+
+Guest OS	Ubuntu 24.04 LTS
+
+Shell	Bash
 
 ## Tools used
 
--
+-Bash commnands:
+
+ls -l
+
+chmod
+
+chown
+
+chgrp
+
+id
+
+groups
+
+touch
+
+mkdir
 
 ## Steps performed
 
