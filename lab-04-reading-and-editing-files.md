@@ -43,6 +43,7 @@
 
 ## evidence (screenshots)
 
+1- created practice file called security_notes.txt <img width="767" height="137" alt="image" src="https://github.com/user-attachments/assets/69fd7371-3cc2-45d6-98db-e2295780e4f0" />
 
 
 ## lessons learned
