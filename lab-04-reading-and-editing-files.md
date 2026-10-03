@@ -45,7 +45,9 @@
 
 1- created practice file called security_notes.txt <img width="767" height="137" alt="image" src="https://github.com/user-attachments/assets/69fd7371-3cc2-45d6-98db-e2295780e4f0" />
 
+2- added a text string inside the created file using the echo command <img width="620" height="192" alt="image" src="https://github.com/user-attachments/assets/8dfa6d36-2547-4d61-8939-665d0d81aa05" />
 
+3- 
 ## lessons learned
 
 Learned how to set up a Linux OS, specifially Ubuntu inside a VM software, in this case Virtual Box, 
