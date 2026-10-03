@@ -59,19 +59,53 @@ mkdir
 <img width="542" height="36" alt="image" src="https://github.com/user-attachments/assets/6a0a984a-0e07-46f0-aa1e-a6b68f5b3703" />
 
 
-2- 
 
-3- 
+2- Created a new directory called Permissions-lab using the mkdir command and switched to the cd command to switch to that directory.
 
-4- 
+<img width="422" height="37" alt="image" src="https://github.com/user-attachments/assets/75fca895-bb9b-4ec9-a7d0-4b115a917cbe" />
 
-5- 
 
-6- 
+3- Using the touch command created 3 different files withing the directory, 2 .txt files and an .sh file.
 
-7- 
+<img width="532" height="62" alt="image" src="https://github.com/user-attachments/assets/4147a268-3515-46d0-843b-9af8775c4419" />
 
-8- 
+4- Used ls -l command to viw the permissions on the files inside the directory, was able to identity that the owner and group can read,write but not execute (rw-) and others can only read (r--)
+
+<img width="492" height="95" alt="image" src="https://github.com/user-attachments/assets/efac571f-5839-4fce-97ab-9ffe661ab069" />
+
+5- Gave the user permission to make the .sh file (script.sh) excecutable by using the chmod command chmod u+x script.sh and then used the same command to remove it chmod u-x script.sh.
+
+<img width="447" height="152" alt="image" src="https://github.com/user-attachments/assets/095a7ec1-38e4-4b3a-8db0-666c0a733bd4" />
+
+
+6- Modified group permissions (specifically for write w) using the chmod command chmod g+w for the .txt file and used chmod g-w to remove it. also learned how to write the changes in permissions depending if its user, group, others or all.
+
+u = user/owner
+
+g = group
+
+o = others
+
+a = all
+
+<img width="515" height="216" alt="image" src="https://github.com/user-attachments/assets/a5e738ff-0a2e-414e-a2bd-a592f7f43583" />
+
+
+7- Understanding and using numeric permissions:
+
+read = 4
+
+write = 2
+
+Execute = 1
+
+none = 0
+
+practied this using the chmod 755 command on script.sh, which made it so the user can read,write and execute and the group and others to only be able to read and execute.
+
+<img width="517" height="130" alt="image" src="https://github.com/user-attachments/assets/8bdee59d-f1e2-4d7a-a770-04948140be8a" />
+
+8- To practice restrcited permissions I using the touch command created a new file called confidential.txt and using the echo command added a string of text that says "Confidential investigation notes"
 
 
 ## evidence (screenshots)
