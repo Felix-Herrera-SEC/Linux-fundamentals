@@ -62,15 +62,25 @@ echo
 
 3- appended extra text information into the file using echo and two >> <img width="657" height="117" alt="image" src="https://github.com/user-attachments/assets/4e4de5f1-763a-431a-b5c0-a19a200bda24" />
 
-4-added an additional line of text using the nano command which lets you edit the file, then pressed Ctrl + O + Enter to save and Ctrl + X to exit the editor <img width="426" height="137" alt="image" src="https://github.com/user-attachments/assets/f19b0085-267f-4b0f-8b85-1bade2b529bf" />
+4-added an additional line of text using the nano command which lets you edit the file, then pressed Ctrl + O + Enter to save and Ctrl + X to exit the editor 
 
-5- used the head command to view to view te beggining of the test file <img width="427" height="90" alt="image" src="https://github.com/user-attachments/assets/e0e9ec86-1397-49d5-86e7-a077cca781e0" />
+<img width="426" height="137" alt="image" src="https://github.com/user-attachments/assets/f19b0085-267f-4b0f-8b85-1bade2b529bf" />
 
-6- used the tail command to view the end of the test file <img width="442" height="95" alt="image" src="https://github.com/user-attachments/assets/3f70a19d-35b1-4fe1-bb40-7b306277d0bc" />
+5- used the head command to view to view te beggining of the test file 
 
-7- used the less commmand to view the test file interactevely <img width="432" height="627" alt="image" src="https://github.com/user-attachments/assets/08db5687-e516-4753-af25-140040de8563" />
+<img width="427" height="90" alt="image" src="https://github.com/user-attachments/assets/e0e9ec86-1397-49d5-86e7-a077cca781e0" />
 
-8- usedd the grep command to look for the keyword: "Linux" inside the test file <img width="497" height="51" alt="image" src="https://github.com/user-attachments/assets/c5f3ab58-e862-44bf-b434-98b383b40e58" />
+6- used the tail command to view the end of the test file 
+
+<img width="442" height="95" alt="image" src="https://github.com/user-attachments/assets/3f70a19d-35b1-4fe1-bb40-7b306277d0bc" />
+
+7- used the less commmand to view the test file interactevely 
+
+<img width="432" height="627" alt="image" src="https://github.com/user-attachments/assets/08db5687-e516-4753-af25-140040de8563" />
+
+8- usedd the grep command to look for the keyword: "Linux" inside the test file 
+
+<img width="497" height="51" alt="image" src="https://github.com/user-attachments/assets/c5f3ab58-e862-44bf-b434-98b383b40e58" />
 
 
 
