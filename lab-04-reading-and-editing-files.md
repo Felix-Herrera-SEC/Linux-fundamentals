@@ -16,13 +16,26 @@
 
 -Ubuntu VM
 
-## tools used
+## Tools used
 
--Virtual Box
+-Bash commands: 
 
--Ubuntu
+cat
 
-## steps performed
+less
+
+head
+
+tail
+
+nano
+
+grep
+
+echo
+
+
+## Steps performed
 
 1- Create a practice file
 
@@ -47,13 +60,27 @@
 
 2- added a text string inside the created file using the echo command <img width="620" height="192" alt="image" src="https://github.com/user-attachments/assets/8dfa6d36-2547-4d61-8939-665d0d81aa05" />
 
-3- 
+3- appended extra text information into the file using echo and two >> <img width="657" height="117" alt="image" src="https://github.com/user-attachments/assets/4e4de5f1-763a-431a-b5c0-a19a200bda24" />
+
+4-added an additional line of text using the nano command which lets you edit the file, then pressed Ctrl + O + Enter to save and Ctrl + X to exit the editor <img width="426" height="137" alt="image" src="https://github.com/user-attachments/assets/f19b0085-267f-4b0f-8b85-1bade2b529bf" />
+
+5- used the head command to view to view te beggining of the test file <img width="427" height="90" alt="image" src="https://github.com/user-attachments/assets/e0e9ec86-1397-49d5-86e7-a077cca781e0" />
+
+6- used the tail command to view the end of the test file <img width="442" height="95" alt="image" src="https://github.com/user-attachments/assets/3f70a19d-35b1-4fe1-bb40-7b306277d0bc" />
+
+7- used the less commmand to view the test file interactevely <img width="432" height="627" alt="image" src="https://github.com/user-attachments/assets/08db5687-e516-4753-af25-140040de8563" />
+
+8- usedd the grep command to look for the keyword: "Linux" inside the test file <img width="497" height="51" alt="image" src="https://github.com/user-attachments/assets/c5f3ab58-e862-44bf-b434-98b383b40e58" />
+
+
+
+
+
 ## lessons learned
 
-Learned how to set up a Linux OS, specifially Ubuntu inside a VM software, in this case Virtual Box, 
-Also learned how to use the terminal and run basic commands like pwd which prints the current directory path and ls which 
-lists all files and folders inside the current directory.
+Learned how to create, edit, and read files directly in the Linux terminal. Practiced using terminal text editors, appending text to files, and filtering specific information with grep.
 
 
+## SOC relevance 
 
-##MITRE attack mmaping if applicable
+These file-analysis skills are directly applicable to SOC operations because analysts frequently inspect system, authentication, application, and security logs. Commands such as cat, tail, and grep can be used to quickly locate relevant events and identify suspicious activity.
