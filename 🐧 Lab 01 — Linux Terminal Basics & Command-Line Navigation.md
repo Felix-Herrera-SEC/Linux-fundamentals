@@ -1,4 +1,4 @@
-# Linux Installation & Terminal Basics
+# 🐧 Lab 01 — Linux Terminal Basics & Command-Line Navigation
 
 ## Objectives
 
