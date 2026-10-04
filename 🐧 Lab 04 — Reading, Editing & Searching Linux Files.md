@@ -1,4 +1,4 @@
-# Reading & Editing Files
+# 🐧 Lab 04 — Reading, Editing & Searching Linux Files
 
 ## Objectives
 
