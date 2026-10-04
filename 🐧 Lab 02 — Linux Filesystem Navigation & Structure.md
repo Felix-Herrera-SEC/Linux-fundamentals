@@ -1,5 +1,5 @@
 
-# Linux Navigation
+# 🐧 Lab 02 — Linux Filesystem Navigation & Structure
 
 ## Objectives
 
