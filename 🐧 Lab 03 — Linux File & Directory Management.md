@@ -2,20 +2,6 @@
 
 ## Objectives
 
--Creating files
-
--Creating directories
-
--Copying files
-
--Moving files
-
--Renaming files
-
--Deleting files
-
--Directory management
-
 Develop practical experience managing files and directories in Linux using the command line. Learn how to create, copy, move, rename, and delete files and directories while becoming familiar with common filesystem operations used during Linux administration and security investigations.
 
 ## Enviroment
@@ -34,41 +20,20 @@ Develop practical experience managing files and directories in Linux using the c
 
 -Shell: Bash
 
-## steps performed
+## steps performed and evidence (screenshots)
 
-1- went to ubuntu.com to download .iso file of Ubuntu 26.04 LTS
+1- Checked my current directory using cd ~ and checked it with pwd, then created a directory called lab03 using the mkdir command, using touch created a new file called notess.txt, and using the ls command check it, then created multiple files at once to test the functionality and checked them inside the dir using ls created multiple directories more and chcked using ls command again.
 
-2- Completed installation of Ubuntu inside a VM powered by virtual box
+<img width="677" height="481" alt="image" src="https://github.com/user-attachments/assets/9ef74cf1-b68f-4eb9-ba7a-3b21b6b41e6f" />
 
-3- Opened Ubuntu Terminal using Ctrl + Alt + T
+2-Used the sudo mkdir -p command to create a new directory and directories inside of it, then used echo to insert a string of text inside the .txt file and used the cp command to make a copy of the file.
 
-4- ran /root command inside terminal to familirize myself with prompt
+<img width="581" height="512" alt="image" src="https://github.com/user-attachments/assets/8dc49e55-15a8-4021-b7ce-6368935ab309" />
 
-5- ran basic commands inside the terminal like pwd , ls and Cd.
-
-
-## evidence (screenshots)
-
-1- <img width="1637" height="422" alt="Screenshot 2026-07-14 080707" src="https://github.com/user-attachments/assets/9f7f3119-e19d-4d05-9c37-3d60bada72c9" />
-
-2- <img width="600" height="776" alt="ubuntu installation" src="https://github.com/user-attachments/assets/d62c9970-289b-4ab8-88a5-da2675b74204" />
-
-3- <img width="1650" height="1025" alt="ubuntu terminal" src="https://github.com/user-attachments/assets/d94cb2d5-70c2-4257-8a93-46bca83fa0b2" />
-
-4- <img width="696" height="142" alt="root" src="https://github.com/user-attachments/assets/0bca543b-2664-448d-8165-2efeb8775223" />
-
-5- <img width="665" height="967" alt="basic commamnds" src="https://github.com/user-attachments/assets/cd353327-bbd1-4739-8237-10ede87315e7" />
-
-6- <img width="431" height="77" alt="basic commands 2" src="https://github.com/user-attachments/assets/1ac2598e-12fc-49a5-86d7-9bb8915337a2" />
-
-## analysis (optional)
 
 ## lessons learned
+Learned how to use the basic commands to copy, create and edit directories and files inside the ubuntu machine using the terminal.
 
-Learned how to set up a Linux OS, specifially Ubuntu inside a VM software, in this case Virtual Box, 
-Also learned how to use the terminal and run basic commands like pwd which prints the current directory path and ls which 
-lists all files and folders inside the current directory.
+## SOC relevance
 
-
-
-##MITRE attack mmaping if applicable
+Basic commands that will be used daily in a SOC work enviroment.
