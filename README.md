@@ -1,4 +1,4 @@
-# LINUX FUNADAMENTALS
+# 🐧 LINUX FUNADAMENTALS
 
 ## Objective
 
